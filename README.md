@@ -18,11 +18,19 @@ Virtuoso OpenAccess libraries.
 In addition to the repo, you need to download and untar and unzip the GPDK045: 
 https://support.cadence.com/apex/ArticleAttachmentPortal?id=a1Od000000051TqEAI&pageName=GPDKs
 From this page, download the gpdk045_v_6_0 (first link under the GPDK045 section.)
+
+Note: Downloading a GPDK requires a login to http://support.cadence.com. 
+Current customers and any universities which are part of the Cadence Academic 
+Network should be able to get support.cadence.com login access. For current
+customers please contact Cadence support to get a login. If you are a 
+university student or professor, please contact Elias (information below) if
+you don't already have a login.
+
 Untar this in an accessible location as well.
 
 ### setup.csh
 
-Ensure you are in the gpdk45_opamp directory.
+Ensure you are in the opamp_gpdk45 directory.
 Edit the setup.csh file, you need to set the following environment variables:
 All of these should already be at the top of the file, just edit the paths for
 your environment.
@@ -38,7 +46,7 @@ Once it is set, save and do: `source setup.csh`
 
 ## Open the design
 
-In the gpdk45_opamp directory, start virtuoso: `virtuoso &`
+In the opamp_gpdk45 directory, start virtuoso: `virtuoso &`
 
 ### Design Schematic
 
