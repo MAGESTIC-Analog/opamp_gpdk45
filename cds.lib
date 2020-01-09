@@ -1,0 +1,6 @@
+DEFINE basic     $CDSHOME/tools/dfII/etc/cdslib/basic
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE sample    $CDSHOME/tools/dfII/samples/cdslib/sample
+DEFINE US_8ths   $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE gpdk045   $GPDK045HOME/gpdk045
+DEFINE Design    $PROJECT/Design

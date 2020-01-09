@@ -1,0 +1,26 @@
+;Setup Bindkeys
+load(prependInstallPath("/samples/local/schBindKeys.il"))
+load(prependInstallPath("/samples/local/leBindKeys.il"))
+load(prependInstallPath("/samples/local/lxBindKeys.il"))
+
+;LayoutXL Settings
+envSetVal("layoutXL" "constraintAwareEditing" 'boolean nil)
+envSetVal("graphic" "maskLayoutDefaultApp" 'string "Layout GXL")
+
+; Schematic settings
+envSetVal("graphic" "schematicDefaultTier" 'string "XL")
+
+;; ADE and ViVA settings
+envSetVal("asimenv.startup" "projectDir" 'string "./simulation")
+
+; FOR EAD
+envSetVal("layoutEAD.gui" "detailedParasiticTables" 'boolean t)
+envSetVal("layoutEAD.gui" "emResultsShowAllResistors" 'boolean t)
+envSetVal("layoutEAD" "extractConnectivity" 'cyclic "none")
+envSetVal("layoutEAD" "stampNullNetTiles" 'boolean t)
+
+envSetVal("msps.layout" "lvsRulesFile"  'string "$GPDK045HOME/pvs/pvlLVS.rul")
+envSetVal("msps.layout" "layerMapFile" 'string "$GPDK045HOME/pvs/gpdk045.layermap")
+
+envSetVal("auCore.misc" "createCDFtermOrder" 'boolean nil)
+
